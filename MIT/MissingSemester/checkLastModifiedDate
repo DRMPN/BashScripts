@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "The file has been added to your PATH"
+./semester | grep -i last | cut -c 16- > ~/last-modified.txt
